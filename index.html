@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Game Project Title Goes Here</title>
+    <link rel="stylesheet" 
+          href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" >
+
+
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        body {
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 50px;
+        }
+
+    </style>
+
+
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./timer.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    
+    <script type="text/javascript" src="./ground.js"></script>
+    
+    <script type="text/javascript" src="./sceneManager.js"></script>
+    <script type="text/javascript" src="./util.js"></script>
+
+    <script type="text/javascript" src="./box.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+
+    <script type="text/javascript" src="./luke.js"></script>
+    <script type="text/javascript" src="./vader.js"></script>
+    <script type="text/javascript" src="./Animator.js"></script>
+     
+</head>
+<body>
+    <div id="canvas-wrap">
+        <div id="title">
+            Just like the simulations. <br />
+        </div>
+        
+        <canvas id="gameWorld" width="1024" height="768" style="background: url('./Images/background.jpg'); border: 5px solid red">
+            Your browser does not support the canvas element.
+        </canvas>
+
+        <div id="ground">
+            <!-- empty for ground -->
+        </div>
+    </div>
+    
+</body>
+</html>
